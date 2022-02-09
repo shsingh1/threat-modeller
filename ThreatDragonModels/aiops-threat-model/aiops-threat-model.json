@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "title": "aiops-threat-model",
+    "owner": "Shivam",
+    "description": "Threat model for testing"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "aiops-threat-diagram",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 0
+      }
+    ],
+    "reviewer": "Shivam"
+  }
+}
