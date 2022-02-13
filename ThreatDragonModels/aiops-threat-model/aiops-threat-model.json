@@ -53,16 +53,27 @@
               "angle": 0,
               "id": "0de22ce5-3fb6-44af-97cb-61b47e6f7448",
               "z": 2,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Spoofing",
+                  "type": "Spoofing",
+                  "description": "Spoofing threat",
+                  "threatId": "6138ab34-cf18-45d9-9ffb-4a84d9c83749"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Web Browser"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
